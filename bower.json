@@ -1,0 +1,22 @@
+{
+	"name": "datetimepicker-directive",
+	"description": "Light weight bootstrap datetimepicker directive wrapper",
+	"keywords": [
+		"datetimepicker",
+		"bootstrap",
+		"datetime",
+		"picker",
+		"directive"
+	],
+	"version": "1.0.0",
+	"moduleType": "globals",
+	"license": "MIT",
+	"main": [
+		"datetimepicker-directive.js"
+	],
+	"ignore": [],
+	"dependencies": {
+	  "angular" : "^1.5.8",
+		"eonasdan-bootstrap-datetimepicker": ">=4.17.42"
+	}	
+}
