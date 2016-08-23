@@ -16,7 +16,7 @@
 	],
 	"ignore": [],
 	"dependencies": {
-	  "angular" : "^1.5.8",
+	  	"angular" : "^1.5.8",
 		"eonasdan-bootstrap-datetimepicker": ">=4.17.42"
 	}	
 }
