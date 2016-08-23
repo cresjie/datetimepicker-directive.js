@@ -30,7 +30,7 @@ BASIC USAGE
     <input type="text" class="form-control" ng-model="date2" datetime-picker="pickerOptions">
   </body>
 </html>
-
+```
 
 ```javascript
   angular.module('App',[])
