@@ -1,5 +1,5 @@
 angular.module('DateTimePicker')
-      .directive('dateTimePicker', function($timeout){
+      .directive('datetimePicker', function(){
       		return {
       			require: '?ngModel',
       			restrict: 'AE',
@@ -10,10 +10,10 @@ angular.module('DateTimePicker')
       				});
       				
   		        scope.$watch(attr.ngModel, function(newValue){
-  		        	if(newValue) 
-  		        		elem.data("DateTimePicker").date(new moment(newValue) ) ;
+        		        	if(newValue) 
+        		        		elem.data("DateTimePicker").date(new moment(newValue) ) ;
   		        	
-  		        });
+  		                  });
       			}
       
       		};
