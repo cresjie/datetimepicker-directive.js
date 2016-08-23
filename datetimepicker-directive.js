@@ -1,4 +1,4 @@
-angular.module('DateTimePicker')
+angular.module('DateTimePicker',[])
       .directive('datetimePicker', function(){
       		return {
       			require: '?ngModel',
