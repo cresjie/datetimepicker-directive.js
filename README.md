@@ -14,6 +14,8 @@ BASIC USAGE
 
 ```html
 <html>
+
+
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -25,12 +27,15 @@ BASIC USAGE
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
     <script src="datetimepicker-directive.js"></script>
   </head>
+  
+  
   <body ng-app="App" ng-controller="MainController">
     <input type="text" class="form-control" ng-model="date1" datetime-picker="{format: 'MMM-DD-YYY' }">
     <input type="text" class="form-control" ng-model="date2" datetime-picker="pickerOptions">
   </body>
 </html>
 ```
+
 
 ```javascript
   angular.module('App',[])
