@@ -30,8 +30,8 @@ BASIC USAGE
   
   
   <body ng-app="App" ng-controller="MainController">
-    <input type="text" class="form-control" ng-model="date1" datetime-picker="{format: 'MMM-DD-YYY' }">
-    <input type="text" class="form-control" ng-model="date2" datetime-picker="pickerOptions">
+    <input type="text" class="form-control" ng-model="date1" datetimepicker="{format: 'MMM-DD-YYY' }">
+    <input type="text" class="form-control" ng-model="date2" datetimepicker="pickerOptions">
   </body>
   
   
