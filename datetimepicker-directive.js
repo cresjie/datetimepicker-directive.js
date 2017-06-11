@@ -1,3 +1,8 @@
+/**
+ * Angular Eonasdan Datetime Picker
+ * Author: Cres Jie Labasano
+ * Email: cresjie@gmail.com
+ */
 angular.module('DateTimePicker',[])
       .directive('datetimepicker', function(){
       		return {
